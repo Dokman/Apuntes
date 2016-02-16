@@ -23,10 +23,14 @@ Recordemos que /git es como lo enrutamos, de series es /gitbucket
 Para modificar a gusto nuestro gitbucket usaremos estos comandos:
 
 ###Configuración GitBucket
+```
 java -jar gitbucket.war --port=8080 --prefix=/git --gitbucket.home=C:\GIT\data\ --host=localhost
+```
 
 donde
 
+```
 port : es el puerto que usaremos
 prefix: es localhost/loquesea
 host: es el servidor
+```
