@@ -1,13 +1,10 @@
-#H1
+#Servidor Git y enroutarlo a Apache
 ======
-Servidor Git y enroutarlo a Apache
 
-#H2
+##Si quieres usar un servidor [gitbucket](https://github.com/gitbucket/gitbucket)
 ======
-Si quieres usar un servidor [gitbucket](https://github.com/gitbucket/gitbucket)
 
-#H3
-======
+###
 Necesitamos un apache, si usamos xampp en windows viene todo pre-configurado entonces iremos a /xampp/apache/conf/extra/httpd-vhosts.conf
 
 Y añadiremos estas lineas de código
