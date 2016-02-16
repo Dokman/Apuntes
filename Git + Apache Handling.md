@@ -1,5 +1,5 @@
 #Servidor Git y enroutarlo a Apache
-======
+------
 
 Usamos un servidor [GitBucket](https://github.com/gitbucket/gitbucket)
 
