@@ -10,11 +10,13 @@ Y añadiremos estas lineas de código
 
 ###Configuración Apache
 
+```
 <VirtualHost *:80>
 	ProxyPreserveHost On
 	ProxyPass /git http://localhost:8080/git
 	ProxyPassReverse /gitbucket http://localhost:8080/git
 </VirtualHost>
+```
 
 Recordemos que /git es como lo enrutamos, de series es /gitbucket
 
